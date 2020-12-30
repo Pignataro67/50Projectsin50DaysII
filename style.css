@@ -31,6 +31,7 @@ nav {
   border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width 0.6s linear;
+  overflow-x: hidden;
 }
 
 nav.active {
@@ -89,7 +90,7 @@ nav ul a {
   position: absolute;
   top: 10px;
   left: 5px;
-  transition: trasform 0.6s linear;
+  transition: transform 0.6s linear;
 }
 
 .icon .line2 {
@@ -97,13 +98,13 @@ nav ul a {
   bottom: 10px;
 }
 
-new.active .icon .line1 {
+nav.active .icon .line1 {
   transform: rotate(-765deg) translateY(5.5px);
 }
 
-new.active .icon .line2 {
+nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
-}
+} 
 
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
