@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
@@ -104,7 +123,7 @@ nav.active .icon .line1 {
 
 nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
-} 
+}  */
 
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 

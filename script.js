@@ -1,7 +1,15 @@
-const toggle = document.getElementById('toggle');
-const nav = document.getElementById('nav');
 
-toggle.addEventListener('click', () => nav.classList.toggle('active'))
+
+// const toggle = document.getElementById('toggle');
+// const nav = document.getElementById('nav');
+
+// toggle.addEventListener('click', () => nav.classList.toggle('active'))
+
+
+
+
+
+
 
 // const tagsEl =document.getElementById('tags');
 // const textarea = document.getElementById('textarea');
