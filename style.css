@@ -78,6 +78,22 @@ h3 {
   font-size: 12px;
 }
 
+.percentage {
+  background-color: var(--fill-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 0;
+  transition: 0.3s ease;
+}
+
+.text {
+  text-align: center;
+  margin: 0 0 5px;
+}
+
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
