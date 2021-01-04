@@ -51,12 +51,12 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   transition: 0.3s ease;
 }
 
 .cup.cup-small.full {
-  background-color: var(--fill-color);
+  background-color: (--full-color);
   color: #fff;
 }
 
@@ -64,8 +64,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  width: 275px;
+  justify-items: center;
+  width: 280px;
 }
 
 .remained {
@@ -79,12 +79,12 @@ h3 {
 }
 
 .remained span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .remained small {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .percentage {
@@ -93,14 +93,14 @@ h3 {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   height: 0;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .text {
   text-align: center;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 }
 
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
